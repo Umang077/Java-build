@@ -1,4 +1,4 @@
-package com.umang.intuit.analytics;
+package com.umang.analytics;
 
 public class DataRecord {
 

@@ -1,4 +1,4 @@
-package com.umang.intuit.analytics;
+package com.umang.analytics;
 
 import java.util.List;
 import java.util.Map;

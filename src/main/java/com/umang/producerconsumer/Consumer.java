@@ -1,10 +1,10 @@
-package com.umang.intuit.producerconsumer;
+package com.umang.producerconsumer;
 
-public class Producer implements Runnable {
+public class Consumer implements Runnable {
 
     private final SharedBuffer<Integer> buffer;
 
-    public Producer(SharedBuffer<Integer> buffer) {
+    public Consumer(SharedBuffer<Integer> buffer) {
         this.buffer = buffer;
     }
 
@@ -12,8 +12,8 @@ public class Producer implements Runnable {
     public void run() {
         try {
             for (int i = 1; i <= 10; i++) {
-                buffer.produce(i);
-                Thread.sleep(500);
+                buffer.consume();
+                Thread.sleep(800);
             }
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();

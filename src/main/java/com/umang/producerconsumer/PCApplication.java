@@ -37,7 +37,7 @@
 //    }
 //}
 
-package com.umang.intuit.producerconsumer;
+package com.umang.producerconsumer;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

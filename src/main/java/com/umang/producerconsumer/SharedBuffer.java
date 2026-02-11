@@ -1,4 +1,4 @@
-package com.umang.intuit.producerconsumer;
+package com.umang.producerconsumer;
 
 import java.util.LinkedList;
 import java.util.Queue;
