@@ -1,4 +1,4 @@
-# Intuit Build Challenge Simulation
+# Java Build Simulation
 
 ## Features
 
